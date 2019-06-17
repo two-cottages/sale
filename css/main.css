@@ -205,7 +205,7 @@ ul {
 }
 
 @media (max-width: 800px) {
-  .tel-wrapper {
+  .tel .tel-wrapper {
     display: block;
     margin-right: auto;
   }
