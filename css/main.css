@@ -134,6 +134,7 @@ ul {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
   transform: translateY(0px);
+  outline: none;
 }
 
 /*=============================================
