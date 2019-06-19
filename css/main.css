@@ -315,7 +315,7 @@ ul {
 /*----------  Main section ----------*/
 .background-image {
   background-image: url("../img/outside/outside_28.jpg");
-  z-index: -1;
+  z-index: 105;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

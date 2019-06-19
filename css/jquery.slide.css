@@ -12,7 +12,8 @@
 
 @media (max-width: 900px) {
   .slide {
-    background-position: right 25% bottom 0%;
+    /* background-position: right 25% bottom 0%; */
+    background: none;
   }
 }
 
