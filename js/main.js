@@ -232,7 +232,7 @@ $(function() {
     isLoadAllImgs: false,
 
     // sliding speed
-    slideSpeed: 5000,
+    slideSpeed: 9000,
 
     // switching speed
     switchSpeed: 4000,
