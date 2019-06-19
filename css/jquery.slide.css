@@ -60,13 +60,12 @@
   /* top: 50%; */
   margin-top: -25px;
   display: block;
-  width: 50%;
+  width: 20%;
   height: 100vh;
-  cursor: pointer;
   opacity: 0.5;
   transition: background .5s, opacity .5s;
   overflow: hidden;
-  cursor: default;
+  cursor: pointer;
 }
 
 .slide .arrow  .arrow-left:hover,
@@ -81,7 +80,6 @@
   background-size: 50px 50px;
   background-position: left 5% top 50%;
   overflow: hidden;
-  cursor: w-resize;
 }
 /* .slide .arrow .arrow-right:hover{
   cursor: auto;
@@ -93,5 +91,4 @@
   background-size: 50px 50px;
   background-position: right 5% top 50%;
   overflow: hidden;
-  cursor: e-resize;
 }
