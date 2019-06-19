@@ -203,3 +203,49 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
 // execute above function
 initPhotoSwipeFromDOM('.my-gallery');
+
+
+
+// Background gallery
+$(function() {
+  $('.slide').slide({
+
+    // auto play
+    isAutoSlide: true,
+
+    // pause on hover
+    isHoverStop: true,
+
+    // pause when window loses focus
+    isBlurStop: false,
+
+    // shows pagination bullets
+    isShowDots: false,
+
+    // shows navigation arrows
+    isShowArrow: true,
+
+    // shows navigation arrows on hover
+    isHoverShowArrow: true,
+
+    // load all images on load
+    isLoadAllImgs: false,
+
+    // sliding speed
+    slideSpeed: 7000,
+
+    // switching speed
+    switchSpeed: 500,
+
+    // click, mouseover or mouseenter
+    dotsEvent: 'click',
+
+    // default CSS classes
+    dotsClass: 'dots',
+    dotActiveClass: 'active',
+    arrowClass: 'arrow',
+    arrowLeftClass: 'arrow-left',
+    arrowRightClass: 'arrow-right'
+
+  });
+});

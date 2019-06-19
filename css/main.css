@@ -156,7 +156,7 @@ ul {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  z-index: 51;
+  z-index: 101;
 }
 
 @media (max-width: 1440px) {
@@ -180,7 +180,7 @@ ul {
   background-color: #f9fffb;
   border-bottom: 1.3px solid #dddddd;
   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.07);
-  z-index: 3;
+  z-index: 101;
 }
 
 .nav__bar--open {
@@ -351,18 +351,25 @@ ul {
 .main-title {
   width: 50%;
   padding: 20px 8px;
-  margin: 120px auto;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 120px;
+  /* margin: 120px auto; */
   background-color: rgba(255, 255, 255, 0.75);
   color: rgba(0, 0, 0, 0.87);
   opacity: 0.8;
   text-align: center;
   border-radius: 5px;
+  z-index: 100;
+  position: absolute;
 }
 
 @media (max-width: 900px) {
   .main-title {
     width: 75%;
-    margin-top: 150px;
+    top: 150px;
     font-size: 30px;
   }
 }
@@ -378,7 +385,11 @@ ul {
   justify-content: space-around;
   max-width: 95%;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   bottom: 15px;
+  z-index: 100;
 }
 
 @media (max-width: 1600px) {
@@ -402,7 +413,7 @@ ul {
 
 .main-info__block {
   width: 27%;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.65);
   color: rgba(0, 0, 0, 0.8);
   opacity: 1;
   text-align: center;
