@@ -235,7 +235,7 @@ $(function() {
     slideSpeed: 7000,
 
     // switching speed
-    switchSpeed: 4000,
+    switchSpeed: 2000,
 
     // click, mouseover or mouseenter
     dotsEvent: 'click',
