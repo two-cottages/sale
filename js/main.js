@@ -232,10 +232,10 @@ $(function() {
     isLoadAllImgs: false,
 
     // sliding speed
-    slideSpeed: 7000,
+    slideSpeed: 10000,
 
     // switching speed
-    switchSpeed: 2000,
+    switchSpeed: 3000,
 
     // click, mouseover or mouseenter
     dotsEvent: 'click',
