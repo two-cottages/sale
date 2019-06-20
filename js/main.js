@@ -235,7 +235,7 @@ initPhotoSwipeFromDOM('.my-gallery');
         slideSpeed: 7000,
 
         // switching speed
-        switchSpeed: 2000,
+        switchSpeed: 2500,
 
         // click, mouseover or mouseenter
         dotsEvent: 'click',
