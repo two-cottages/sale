@@ -207,13 +207,11 @@ initPhotoSwipeFromDOM('.my-gallery');
 
 
 // Background gallery
-if ($(window).width() > 800) {
-    // Background gallery
     $(function() {
       $('.slide').slide({
 
         // auto play
-        isAutoSlide: true,
+        isAutoSlide: false,
 
         // pause on hover
         isHoverStop: true,
@@ -237,7 +235,7 @@ if ($(window).width() > 800) {
         slideSpeed: 7000,
 
         // switching speed
-        switchSpeed: 3500,
+        switchSpeed: 2000,
 
         // click, mouseover or mouseenter
         dotsEvent: 'click',
@@ -252,4 +250,3 @@ if ($(window).width() > 800) {
       });
     });
 
-  }

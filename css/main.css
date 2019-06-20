@@ -695,7 +695,7 @@ ul {
 }
 
 .gallery-wrapper {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   padding-top: 50px;
@@ -705,19 +705,19 @@ ul {
 
 @media (max-width: 1200px) {
   .gallery-wrapper {
-    width: 75%;
+    width: 92%;
   }
 }
 @media (max-width: 550px) {
   .gallery-wrapper {
-    width: 85%;
+    width: 95%;
   }
 }
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   .gallery-wrapper {
     width: 93%;
   }
-}
+} */
 
 .gallery-header {
   display: block;

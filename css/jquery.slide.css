@@ -1,33 +1,40 @@
 .slide {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 750px;
   background: #f9fffb;
+  margin: 0px auto;
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 1500px) {
   .slide {
-    height: 120vh;
+    height: 650px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .slide {
-    /* background-position: right 25% bottom 0%; */
-    background: none;
+    height: 600px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .slide {
-    height: 140vh;
+    height: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .slide {
+    height: 400px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 330px) {
   .slide {
-    height: 150vh;
+    height: 360px;
   }
 }
+
 .slide ul {
   margin: 0;
 }
@@ -40,6 +47,7 @@
   width: 100%;
   height: 100%;
   list-style: none;
+  overflow: hidden;
 }
 
 
@@ -59,10 +67,9 @@
 .slide .arrow .arrow-right {
   position: absolute;
   /* top: 50%; */
-  margin-top: -25px;
   display: block;
   width: 20%;
-  height: 100vh;
+  height:  100%;
   opacity: 0.5;
   transition: background .5s, opacity .5s;
   overflow: hidden;
@@ -79,8 +86,8 @@
   background: url("../img/arrow-left.png");
   background-repeat: no-repeat;
   background-size: 50px 50px;
-  background-position: left 5% top 50%;
   overflow: hidden;
+  background-position: left 0% top 45%;
 }
 /* .slide .arrow .arrow-right:hover{
   cursor: auto;
@@ -90,6 +97,19 @@
   background: url("../img/arrow-right.png");
   background-repeat: no-repeat;
   background-size: 50px 50px;
-  background-position: right 5% top 50%;
   overflow: hidden;
+  background-position: right 0% top 45%;
+}
+
+@media (max-width: 450px) {
+  .slide .arrow .arrow-right {
+    right: 7px;
+    background-size: 35px 35px;
+    background-position: right 0% top 47%;
+  }
+  .slide .arrow .arrow-left {
+    left: 7px;
+    background-size: 35px 35px;
+    background-position: left 0% top 47%;
+  }
 }
