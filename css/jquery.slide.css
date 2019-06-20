@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #ccc;
+  background: #f9fffb;
 }
 @media (max-width: 1000px) {
   .slide {
