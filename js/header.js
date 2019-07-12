@@ -24,6 +24,7 @@ function openBurger() {
   }
 }
 
+
 // "Go top" button
 window.onscroll = function () {
   showGoTop();
